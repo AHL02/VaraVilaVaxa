@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <title>Vara Vila Vaxa</title>
-    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <div class="background"></div>
     <header>
         <div class="topheader">
@@ -13,25 +14,15 @@
             <h1> Vara Vila Växa</h1>
         </div>
         <div class="subheader">
-            <button>
-                <h2>Hem</h2>
-            </button>
-            <button>
-                <h2>Tjänster</h2>
-            </button>
-            <button>
-                <h2>Medarbetare</h2>
-            </button>
-            <button>
-                <h2>Contact</h2>
-            </button>
+           <nav>
+            <a href="#" data-page="hem">Hem</a>
+            <a href="#" data-page="tjänster">Tjänster</a>
+            <a href="#" data-page="medarbetare">Medarbetare</a>
+           </nav>
         </div>
     </header>
     <main>
-        <div class ="content">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, ex quod asperiores quo officiis maiores facilis magni culpa sint quia est eaque debitis possimus deserunt iste ratione adipisci repellat molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nesciunt at consectetur? Eveniet quos praesentium repellendus dicta, vel consequuntur incidunt reiciendis molestiae, similique optio, temporibus ipsa impedit doloremque rerum obcaecati?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vero nesciunt quasi perspiciatis, pariatur adipisci autem quisquam sint nulla similique suscipit quidem quos maiores architecto illo? Fugiat sed reprehenderit optio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam eaque placeat cum aspernatur fugit sit error, iste deserunt amet quaerat beatae nisi. Exercitationem dolore ab dicta sit a minima nobis.</p>
-        </div>
-
+        <div class ="content" id="content"></div>
     </main>
 
     <footer>

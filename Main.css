@@ -19,6 +19,8 @@ body{
 }
 
 header{
+    position: fixed;
+    width: 100%;
     div{
         height: 4rem;
         width: 100%;
@@ -38,14 +40,26 @@ header{
             margin-top: 0.75rem;
         }
     }
-    .subheader{
+    .subheader{ 
         background-color: brown;
+        nav {
+            height: 100%;
+            a{
+                height: 4rem;
+            }
+        }
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+            color: #f0f0f0;
+        }
     }
 }
 
 main{
+    padding-top: 10rem;
     .content{
-        min-height: 50rem;
+        min-height: 80rem;
         width: 80%;
         margin-left: 10%;
         background-color: white;
