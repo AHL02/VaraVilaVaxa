@@ -21,8 +21,8 @@ body{
 header{
     position: fixed;
     width: 100%;
+    
     div{
-        height: 4rem;
         width: 100%;
         padding-left: 10%;
         padding-right: 10%;
@@ -42,16 +42,26 @@ header{
     }
     .subheader{ 
         background-color: brown;
+        display: flex; /* Ensures height can be passed down */
+        height: 4rem;
         nav {
             height: 100%;
-            a{
-                height: 4rem;
-            }
+            display: flex; /* Make <a> stretch vertically */
         }
-        nav a.active {
+
+        nav a {
+            height: 100%;
+            display: flex;
+            align-items: center; /* Vertically center text */
+            padding: 0 14px;
+            font-size: 2rem;
             font-weight: bold;
-            text-decoration: underline;
+            background-color:aqua;
             color: #f0f0f0;
+            text-decoration: none;
+            &:hover{
+                background-color:blue;
+            }
         }
     }
 }
@@ -63,7 +73,7 @@ main{
         width: 80%;
         margin-left: 10%;
         background-color: white;
-        p{
+        h1{
             margin-top: 0;
         }
     }
