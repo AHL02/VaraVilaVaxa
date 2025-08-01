@@ -45,6 +45,9 @@
                 text-align: center;
                 font-size: xx-large;
             }
+            p{
+                font-size: small;
+            }
         }
     }
 }
