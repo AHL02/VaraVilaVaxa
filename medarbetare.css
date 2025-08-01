@@ -23,10 +23,11 @@
         width: 33%;
         height: auto;
         img{
-            padding-left: 10%;
+            margin-left: 10%;
             width: 80%;
             height: auto;
-            border-radius: 8px;
+            border-radius: 50%;
+            border-style: solid;
         }
         h3{
 
