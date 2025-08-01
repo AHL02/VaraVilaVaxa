@@ -1,0 +1,45 @@
+.content{
+    .tjanstContainer{
+        padding-bottom: 3rem;
+        margin-bottom: 3rem;
+        border-width: 0.5rem;
+        border-style: none none double none;
+    }
+    .tjanstContainerlast{
+        padding-bottom: 3rem;
+    }
+    h2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+}
+
+.tjänsterimg{
+    width: 100%;
+}
+
+@media (orientation: landscape) { 
+    .tjanstContainer{
+        .order{
+            display: flex;
+            flex-direction: row;
+        }
+        img{
+            width: 40%;
+        }
+    }
+    .tjanstContainerlast{
+         .order{
+            display: flex;
+            flex-direction: row;
+        }
+        img{
+            width: 40%;
+        }
+    }
+}

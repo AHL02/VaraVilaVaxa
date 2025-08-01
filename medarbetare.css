@@ -1,0 +1,49 @@
+.content{
+    padding-top: 5rem;
+    h1{
+        font-size: xx-large;
+        text-align: center;
+    }
+    p{
+        font-size: large;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+.smallMemberContainer{
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .smallMember{
+        margin-bottom: 3rem;
+        width: 33%;
+        height: auto;
+        img{
+            padding-left: 10%;
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h3{
+
+            text-align: center;
+        }
+    }
+}
+
+@media (orientation: portrait){
+    .smallMemberContainer{
+
+        .smallMember{
+            width: 50%;
+            h3{
+                text-align: center;
+                font-size: xx-large;
+            }
+        }
+    }
+}
